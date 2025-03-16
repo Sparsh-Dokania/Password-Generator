@@ -1,0 +1,26 @@
+@import "tailwindcss";
+/* App.css */
+
+body {
+    background-color: #f3f4f6;
+  }
+  
+  .bg-white {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .bg-white:hover {
+    transform: translateY(-5px) scale(1.02);
+  }
+  
+  input[type='number'],
+  input[type='text'] {
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type='number']:focus,
+  input[type='text']:focus {
+    border-color: #60a5fa; /* Tailwind's blue color */
+  }
+  
+  /* Add more styles as needed */
